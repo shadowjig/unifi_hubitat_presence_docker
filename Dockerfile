@@ -1,5 +1,5 @@
 FROM python:alpine
 
-MKDIR /app
+RUN mkdir /app
 
 CMD [ "python", "./app/unifipresence.py" ]
