@@ -1,6 +1,6 @@
 FROM python:2-alpine
 
 RUN mkdir /app
-RUN pip3 install requests
+RUN pip install requests
 
 CMD [ "python", "./app/unifipresence.py" ]
