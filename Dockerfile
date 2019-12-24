@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:2-alpine
 
 RUN mkdir /app
 RUN pip3 install requests
